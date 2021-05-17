@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles here! */
+body {
+  background-color: gainsboro;
+}
+
+header,
+main {
+  padding: 32px 0;
+}
+
+header {
+  background-color: white;
+}
+
+.max-width-wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.intro-chunk {
+  padding: 0 16px;
+  max-width: 300px;
+}
+
+.intro-chunk p {
+  margin: 16px 0;
+}
+
+strong {
+  color: green;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+main {
+  border-top: 5px solid grey;
+}
+
+.card {
+  background-color: white;
+  padding: 16px;
+  border-bottom: 5px solid gray;
+  max-width: 600px;
+}
+
+.indented-heading {
+  margin: 0;
+  background-color: deeppink;
+  padding: 12px 24px;
+  margin-left: -32px;
+  margin-top: -8px;
+  border-bottom: 5px solid darkslateblue;
+  width: fit-content;
+}
+
